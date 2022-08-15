@@ -1,0 +1,200 @@
+ body{
+    font-family: 'Kaisei HarunoUmi', serif;
+    background-color:#eeeded;
+}
+.navbar-brand img {
+    margin-top: -5px;
+    
+    
+}
+.navbar{
+
+   padding: 10px;
+  
+}
+.carousel-inner{
+
+    height: 80vh;
+    min-height: 50px;
+    background: no-repeat center scroll;
+    background-size: cover;
+    -webkit-background-size: cover ;
+    background: black;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.carousel-item img{
+    background-position: center;
+    height: 80vh;
+}
+
+
+.jumbotron{
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+    background: white;
+   
+}
+
+
+.jumbotron img{
+    width: 1080px;
+    height: 100px;
+    margin-top: -40px;
+    margin-left: 150px;
+    
+    
+}
+
+section .widgets{
+    margin-top:20px ;
+    margin-bottom: 20px;
+
+}
+.popular{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 10px;
+
+}
+.popular ul li {
+    list-style: none;
+}
+.popular .details h4{
+   margin-top: 30px;
+   font-size: 8px;  
+  
+}
+.popular .details p{
+    font-family: arial;
+    font-size: 8px;
+  
+}
+
+.popular img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.post{
+    background: white;
+    border: 1px solid #e3e3e3;
+    margin-top: 20px;
+
+}
+.post .post-date {
+    padding: 20px;
+    text-align: center;
+    color: #24a7cf;
+    
+}
+
+.post .post-date .day{
+    font-size: 30px;
+    color: style ="margin-left: 75px;";
+}
+
+
+.post .post-date .year{
+    
+    font-weight: 100;
+}
+.post .post-title{
+    padding: 5px 20px;
+    border-left: 1px solid #e3e3e3;
+}
+.post > a > img{
+    width: 100%;
+}
+.post .desc{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: arial;
+    font-weight: 100;
+    padding: 15px;
+    line-height: 20px;
+  
+    
+}
+.post a.btn{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.post .bottom{
+    padding: 10px 20px;
+    border-top: 1px solid #e3e3e3; 
+   
+}
+.post .bottom{
+    color: #c6c6c6;
+  
+}
+
+ .contact-form{
+ background: white;
+ padding: 25px;
+
+
+}
+footer{
+    background: black;
+    height: 80px;
+    line-height: 50px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+nav#pagination{
+
+text-align: center;
+
+}
+.pagination{
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.related-post{
+    background: white;
+    padding: 20px;
+}
+.related-post img{
+    width: 100%;
+    height: 150px;
+}
+
+@media (max-width:992px){
+    .post .post-title{
+       
+        text-align: center;
+    }
+
+}
+
+@media(max-width:786px){
+    
+    .jumbotron #details{
+        margin-top: 20px;
+    }
+    .post .post-title{
+        margin-top: -20px;
+        text-align: center;
+        
+    }
+    .pagination >li >a {
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+  
+footer{
+    font-size: 9px;
+    letter-spacing: 0px;
+}
+
+
+}
